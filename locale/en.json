@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Delete Session",
+    "description": "Adds a Delete session action below Archive and permanently removes the session log, workspace accounting, attachments, schedules, jobs, and spill files."
+  },
+  "menu": {
+    "deleteSession": "Delete session"
+  },
+  "dialog": {
+    "title": "Delete this session permanently?",
+    "body": "This permanently deletes every message, attachment, and generated record of \u201c{title}\u201d. It cannot be undone.",
+    "untitled": "this session",
+    "cancel": "Cancel",
+    "confirm": "Delete permanently",
+    "deleting": "Deleting\u2026",
+    "failed": "Delete failed: {message}",
+    "close": "Close"
+  },
+  "toast": {
+    "done": "Session permanently deleted"
+  }
+}
